@@ -1,8 +1,8 @@
 @import url("whitespace-reset.css");
 
 body {
-  width: 100%;
   font: normal 16px Helvetica, Arial, sans-serif;
+  color: #45494d;
 }
 
 header {
@@ -29,6 +29,44 @@ header h1 a {
 
 main {
   background: #ffffff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 0 90px 0;
+  overflow: hidden;
+}
+
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 0 30px 0;
+  overflow: hidden;
+  border-top: solid 1px #d0d0d0;
+}
+
+p {
+  line-height: 150%;
+  padding: 15px 0 0 0;
+}
+
+footer p {
+  font-size: 12px;
+  color: #7e8287;
+}
+
+a {
+  text-decoration: none;
+  color: #50c3af;
+}
+
+h2 {
+  font-size: 36px;
+  padding: 0 0 5px 0;
+}
+article {
+  padding: 0 0 80px 0;
+}
+article p {
+  font-size: 20px;
 }
 
 nav {
@@ -42,7 +80,6 @@ nav li {
   margin: 0 25.5px;
 }
 nav li a {
-  text-decoration: none;
   color: #ffffff;
 }
 nav li a:hover {
@@ -51,3 +88,67 @@ nav li a:hover {
 .active {
   color: #50c3af;
 }
+
+#content {
+  float: left;
+  width: 65%;
+  padding: 0 11.5% 0 0;
+  overflow: hidden;
+}
+
+#pagination {
+}
+
+#pagination li {
+  display: inline-block;
+  padding: 5px 25px;
+  margin: 0 26px 0 0;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 14px;
+  background: #50c3af;
+}
+
+#pagination li a {
+  color: #ffffff;
+}
+
+#pagination #disabled {
+  background-color: #d2d5da;
+}
+
+#sidebar {
+  padding: 35px;
+  background: #f6f7f8;
+  overflow: hidden;
+}
+
+#sidebar ul {
+  padding: 21px 0;
+}
+
+#sidebar li {
+  margin: 0 0 0 20px;
+  padding: 3px 0 0 0;
+  list-style: url("blt_ul.png");
+}
+
+#sidebar li a {
+  font-size: 14px;
+  color: #787b80;
+}
+
+#sidebar p {
+  padding: 25px 0 0 0;
+  font-size: 14px;
+  color: #787b80;
+}
+
+#sidebar h3 {
+  text-transform: uppercase;
+}
+#sidebar h3 ~ h3 {
+  padding: 88px 0 0 0;
+}
+
+
