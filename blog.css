@@ -62,6 +62,13 @@ h2 {
   font-size: 36px;
   padding: 0 0 5px 0;
 }
+
+h2 a {
+  color: #45494d;
+}
+h2 a:hover {
+  color: #50c3af;
+}
 article {
   padding: 0 0 80px 0;
 }
@@ -136,6 +143,9 @@ nav li a:hover {
 #sidebar li a {
   font-size: 14px;
   color: #787b80;
+}
+#sidebar li a:hover {
+  color: #50c3af;
 }
 
 #sidebar p {
