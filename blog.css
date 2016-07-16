@@ -6,23 +6,48 @@ body {
 }
 
 header {
-  height: 546px;
+  padding: 130px 0 0 0;
   background: #3d3d3d;
   color: #ffffff;
+  box-sizing: border-box;
 }
 
 header h1 {
-  font-size: 52px;
+  margin: 0 0 119px 0;
+  padding: 0 0 126px 0;
   text-align: center;
-  margin: 0 auto;
-  padding: 145px 0 56px 0;
+  font: normal 68px Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  letter-spacing: 6px;
+  background: transparent url("logo.png") 50% 100% no-repeat;
+}
+
+header h1 a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 main {
   background: #ffffff;
 }
 
-header li {
+nav {
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+nav li {
   display: inline;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 25.5px;
+}
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav li a:hover {
+  color: #f5dc39;
+}
+.active {
+  color: #50c3af;
 }
